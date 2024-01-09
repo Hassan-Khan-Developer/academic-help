@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --first-color: #000080;
+            --second-color: #FFF;
+            --third-margin: 70px;
+            --forth-padding: 60px;
+            --five-width: 20%;
+        }
+        .container{
+            margin: var(--third-margin);
+        }
+        .box{
+            background-color: var(--first-color);
+            width: var(--five-width);
+            padding: var(--forth-padding);
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+        h4{
+            color: var(--second-color);
+        }
+    </style>
+</head>
+<body>
+                <div class="container">
+                    <div class="box">
+                        <marquee behavior="alternate" direction="right">
+                        <h4>testing vaiables</h4>
+                    </marquee>
+                    </div>
+                </div>
+</body>
+</html>
