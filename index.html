@@ -12,1148 +12,184 @@
     <title>Academic Help</title>
   </head>
   <body>
-                            <!-- ! Navbar Start     -->
+                        <!-- ! Navbar Start     -->
+    <div id="navbar"></div>
 
-  <header class="bg-gradient-to-r from-[#000080] to-[#41B0F8]  py-2 px-2 sticky top-0">  
-    <nav class="max-[1099px]:text-end">
-        
-        
+    <!-- JavaScript to include section.html -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            fetch('main-components/navbar.html')
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById('navbar').innerHTML = html;
+                });
+        });
+    </script>
 
-        <button onclick="myFunction()" class="m-0 min-[1100px]:hidden visible"><i class="fa fa-align-justify text-3xl text-white" aria-hidden="true"></i></button>
-        <ul id="navbar-mobile" class="min-[1100px]:flex items-center min-[1100px]:gap-6 gap-2 px-40 hidden text-white">
-          <img class="w-40 me-8" src="./images/logo.png" alt="logo">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Subjects</a></li>
-      <li><a href="#">Why Us ?</a></li>
-      <li><a href="#">Process</a></li>
-      <li><a href="#">Reviews</a></li>
-      <li><a href="#">Contact US</a></li>
-      <li><a href="#"><button class="bg-[#000080] px-4 py-1 rounded-3xl">Order Now</button></a></li>
+                        <!-- ! Navbar End     -->
+
+                        <!-- ! Banner Start     -->
+                        
+    <div id="banner"></div>
+
+    <!-- JavaScript to include section.html -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            fetch('all-sections/banner.html')
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById('banner').innerHTML = html;
+                });
+        });
+    </script>
+                         
       
-  </ul>
-
-
-
-        </nav>
-    </header>
-
-                            <!-- ! Navbar End     -->
-
-
-
-                       <!-- ! Banner Start     -->
-                            
-
-      <div class="main min-[1325px]:ps-40 min-[1325px]:pe-0 px-10 py-6 bg-cover bg-center bg-blend-multiply bg-black bg-opacity-70" style="background-image: url(./images/banner.jpg);">
-
-      <div class="next flex flex-col min-[1190px]:flex-row">
-  
-    <div class="right w-full min-[1190px]:w-[60%]">
-  
-    <h3 class="bg-yellow-300 min-[612px]:text-left text-center min-[612px]:w-fit py-0.5 my-2 text-lg rounded-3xl px-2">Professional Acdemic Help</h3>
-    <h1 class="text-white min-[612px]:text-left text-center text-4xl my-2 font-semibold">Academic Help</h1>
-    <h2 class="text-yellow-400 min-[612px]:text-left text-center my-2 text-2xl font-medium">We Provide Fastest Services</h2>
-    <h2 class="text-white min-[612px]:text-left text-center text-xl font-normal my-2">Achieve Top Grades With All Academic Help</h2>
-  
-  
-  <div class="buttons flex flex-col min-[651px]:flex-row gap-8 py-4">
-    <button class="text-yellow-400 text-[24px] font-medium">Get A+ Grade</button>
-    <button class="bg-[#000080] text-white text-[18px] rounded-3xl px-8 py-1 font-medium">Oder Now</button>
-    <button class="bg-white text-[19px] rounded-3xl px-4 py-1 font-medium">Talk With Experts</button>
-  
-  
-  </div>
-  
-                              <!-- ICONS -->
-        <div class="icons flex flex-col min-[502px]:flex-row gap-8 py-6">
-  
-  
-        <div class="experts flex flex-col items-center min-[502px]:flex-row justify-center min-[502px]:justify-start gap-2">
-    
-          <div class="image  bg-white rounded-3xl">
-        <img  src="./images/expert.png" class="p-[8px] w-12">
-          </div>
-        <h4 class="text-white flex text-center min-[502px]:text-left text-[15px]">4500+ Knowledgeable <br> Advisors</h4>
-      </div>
-    
-    
-      <div class="file flex flex-col items-center min-[502px]:flex-row justify-center min-[502px]:justify-start gap-2">
-    
-        <div class="image bg-white rounded-3xl">
-      <img  src="./images/file.png" class="p-[8px] w-12">
-        </div>
-      <h4 class="text-white flex text-center min-[502px]:text-left text-[15px]">Turnitin Reports are <br> Generated Quickly</h4>
-    </div>
-    
-    
-    
-    <div class="rating min-[802px]:flex min-[802px]:visible hidden gap-2">
-    
-      <div class="image bg-white rounded-3xl">
-    <img  src="./images/rating.png" class="p-[8px] w-12">
-      </div>
-    <h4 class="text-white flex items-center text-[15px]">4.5 out of 5 rating from <br> 5087 reviews.</h4>
-    </div>
-    
-      
-    
-      </div>
-  
-                                <!-- checkboxes -->
-      <div class="checkboxes flex flex-col min-[502px]:flex-row gap-6 py-6">
-  
-      <div class="checkbox-1 bg-[#000080] px-2 py-1 rounded-lg">
-  
-      <div class="check-1 text-white flex  items-center gap-2">
-        <i class="fa fa-check-circle"></i>
-        <h5>Time Flexibility</h5>
-      </div>
-  
-  
-      <div class="check-2 text-white flex items-center gap-2">
-        <i class="fa fa-check-circle"></i>
-        <h5>Experienced Teachers</h5>
-      </div>
-  
-  
-      <div class="check-3 text-white flex  items-center gap-2">
-        <i class="fa fa-check-circle"></i>
-        <h5>Satisfaction Guaranteed</h5>
-      </div>
-  
-    </div>
-      
-  
-  
-    <div class="checkbox-2 bg-[#000080] px-2 py-1 rounded-lg">
-  
-      <div class="check-1 text-white flex  items-center gap-2">
-        <i class="fa fa-check-circle"></i>
-        <h5>Time Flexibility</h5>
-      </div>
-  
-  
-      <div class="check-2 text-white flex items-center gap-2">
-        <i class="fa fa-check-circle"></i>
-        <h5>Experienced Teachers</h5>
-      </div>
-  
-  
-      <div class="check-3 text-white flex  items-center gap-2">
-        <i class="fa fa-check-circle"></i>
-        <h5>Satisfaction Guaranteed</h5>
-      </div>
-  
-    </div>
-  
-  
-    
-  
-  
-  
-  
-    <div class="checkbox-3 min-[802px]:block hidden bg-[#000080] px-2 py-1 rounded-lg">
-  
-      <div class="check-1 text-white flex  items-center gap-2">
-        <i class="fa fa-check-circle"></i>
-        <h5>Time Flexibility</h5>
-      </div>
-  
-  
-      <div class="check-2 text-white flex items-center gap-2">
-        <i class="fa fa-check-circle"></i>
-        <h5>Experienced Teachers</h5>
-      </div>
-  
-  
-      <div class="check-3 text-white flex  items-center gap-2">
-        <i class="fa fa-check-circle"></i>
-        <h5>Satisfaction Guaranteed</h5>
-      </div>
-  
-    </div>
-  
-  
-  
-      
-  
-  
-      </div>
-  
-  
-  
-  
-  
-      <div class="images flex flex-col min-[502px]:flex-row gap-6 min-[502px]:gap-16">
-  
-        <div class="sitejabr flex flex-col min-[502px]:flex-row items-center gap-2">
-          <img src="./images/sitejaabr.png" class="w-12">
-          <h5 class="text-white text-lg font-medium">Sitejabber
-            <br>
-            <i class="fa fa-star text-yellow-500"></i><i class="fa fa-star text-yellow-500"></i><i class="fa fa-star text-yellow-500"></i><i class="fa fa-star text-yellow-500"></i><i class="fa fa-star text-yellow-500"></i>
-  
-  
-          </h5>
-  
-        </div>
-  
-  
-  
-  
-        <div class="reseller flex flex-col min-[502px]:flex-row items-center gap-2">
-          <img src="./images/reseller.png" class="w-12">
-          <h5 class="text-white text-center min-[502px]:text-left text-lg font-medium">Reseller Rating
-            <br>
-            <i class="fa fa-star text-yellow-500"></i><i class="fa fa-star text-yellow-500"></i><i class="fa fa-star text-yellow-500"></i><i class="fa fa-star text-yellow-500"></i><i class="fa fa-star text-yellow-500"></i>
-  
-  
-          </h5>
-  
-        </div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-        <div class="TrustPilot min-[802px]:flex min-[802px]:block hidden items-center gap-2">
-          <img src="./images/trust_pi.png" class="w-12">
-          <h5 class="text-white text-lg font-medium">TrustPilot
-            <br>
-            <i class="fa fa-star text-yellow-500"></i><i class="fa fa-star text-yellow-500"></i><i class="fa fa-star text-yellow-500"></i><i class="fa fa-star text-yellow-500"></i><i class="fa fa-star text-yellow-500"></i>
-  
-  
-          </h5>
-  
-  
-        </div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      </div>
-  
-  
-  
-      
-  
-  
-  
-  
-  </div>
-  
-  
-  
-  
-    <div class="left flex mt-4 justify-center m-auto w-[100%] min-[416px]:w-[80%] min-[827px]:w-[40%] min-[1190px]:w-[45%] min-[1190px]:flex min-[1190px]:items-center">
-      
-  
-    <div class="bg-[#000080] ms-0 me-0 min-[1190px]:me-40 min-[1190px]:ms-4 py-4 rounded-lg px-4">
-  
-    <h4 class="bg-[#41B0F8] text-center  text-[20px] font-semibold rounded-3xl text-white py-1 px-2">Special Discount</h4>
-    <h4 class="text-center text-white text-2xl font-medium">Get Upto</h4>
-    <h4 class="text-center text-yellow-400 text-4xl italic font-medium">50% OFF</h4>
-    <h4 class="text-center text-white text-[18px] font-medium">Free Plagiarism Report</h4>
-  
-  
-  
-  
-  
-            <div class="form flex flex-col justify-start border-t-2 border-[#000080] my-4">
-  
-    <form class="my-2">
-  
-    <input class="w-[90%] ms-4 px-4 py-2 my-2 rounded-br-full rounded-tl-full placeholder:text-black focus:outline-0" type="text" name="text" placeholder="Your Name">
-    <input class="w-[90%] ms-4 px-4 py-2 my-2 rounded-br-full rounded-tl-full placeholder:text-black focus:outline-0" type="email" name="email" placeholder="Your Email">
-    <input class="w-[90%] ms-4 px-4 py-2 my-2 rounded-br-full rounded-tl-full placeholder:text-black focus:outline-0" type="tel" name="tel" placeholder="Your Phone Number">
-    <button class="uppercase w-[90%] ms-4 p-2 font-medium mt-2 rounded-full text-white  bg-[#41B0F8]">get a free quote</button>
-  
-  
-  
-  
-    </form>
-  
-            </div>
-  
-  
-          </div>
-  
-    </div>
-  
-  </div>  
-  
-        </div>
-  
   
                             <!-- ! Banner End     -->
                     
-
                             <!-- ! Section-2 Start     -->
 
-    <div class="main mx-8 min-[820px]:mx-40 my-14">
-
-        <div class="headings text-center">
-
-      <h3 class="font-medium text-2xl min-[540px]:text-3xl">OUR <span class="underline decoration-[#000080] ">GUARANTEES</span></h3>
-      <h4 class=" my-4 font-normal text-2xl min-[540px]:text-3xl">Know Why Students Rely On Our help Services</h4>
-      <p class="text-lg">Allassignmenthelp.org promises every student to provide the best quality work and maximum satisfaction. Here’s why you should trust us.</p>
-      
-      </div>
-
-                          <!-- & First ROW -->
-
-          <div class="three-boxes my-10 grid grid-cols-1 min-[1145px]:grid-cols-4 min-[692px]:grid-cols-2 gap-6">
-                  <!-- *First Box  -->
-        <div class="fist-box  bg-gradient-to-br from-[#000080] via-[#41B0F8] to-[#000080] p-4 rounded-xl">
-
-          
-          <div class="contents text-center text-white">
-            
-            <i class="fa-solid fa-user-graduate text-3xl flex justify-center m-auto py-[13px] px-[30px] rounded-full bg-[#000080] w-[50px] "></i>
-
-          <h4 class="mt-4 mb-2 text-[20px]">100% Plagiarism FREE</h4>
-          <p class="h-[100px] overflow-auto">Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!</p>
-
-        </div>
-
-
-
-            
-            </div>
-
-
-              <!-- * Second Box  -->
-          <div class="second-box  bg-gradient-to-br from-[#000080] via-[#41B0F8] to-[#000080] p-4 rounded-xl">
-
-            <div class="contents text-center text-white">
-
-              <i class="fa-solid fa-money-check text-3xl flex justify-center m-auto py-[13px] px-[30px] rounded-full bg-[#000080] w-[50px] "></i>
-
-            <h4 class="mt-4 mb-2 text-[20px]">100% Money Back Guarantee</h4>
-            <p class="h-[100px] overflow-auto">Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!</p>
-  
-          </div>
-  
-  
-      </div>
-          
-              <!-- * Third Box  -->
-          <div class="third-box  bg-gradient-to-br from-[#000080] via-[#41B0F8] to-[#000080] p-4 rounded-xl">
-
-            <div class="contents text-center text-white">
-
-              <i class="fa-solid fa-star text-3xl flex justify-center m-auto py-[13px] px-[30px] rounded-full bg-[#000080] w-[50px] "></i>
-
-          <h4 class="mt-4 mb-2 text-[20px]">100% Satisfaction</h4>
-          <p class="h-[100px] overflow-auto">Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!</p>
-        </div>
-  
-  
-      </div>
-
-
-
-        <!-- * Forth Box  -->
-        <div class="forth-box bg-gradient-to-br from-[#000080] via-[#41B0F8] to-[#000080] p-4 rounded-xl">
-
-          <div class="contents text-center text-white">
-
-            <i class="fa-solid fa-history text-3xl flex justify-center m-auto py-[13px] px-[30px] rounded-full bg-[#000080] w-[50px] "></i>
-
-
-      <h4 class="mt-4 mb-2 text-[20px]">Unlimited Revisions</h4>
-      <p class="h-[100px] overflow-auto">Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!</p>
-
-    </div>
-
-
-    </div>
-
-
-
-
-
-
-          </div>
-
-
-
-                  <!-- &Second ROW -->
-
-
-
-          <div class="three-boxes my-10 grid grid-cols-1 min-[1145px]:grid-cols-4 min-[692px]:grid-cols-2 gap-6">
-            <!-- *First Box  -->
-            <div class="fist-box  bg-gradient-to-br from-[#000080] via-[#41B0F8] to-[#000080] p-4 rounded-xl">
-              
-              <div class="contents text-center text-white">
-
-      <i class="fa-solid fa-user-clock text-3xl flex justify-center m-auto py-[13px] px-[30px] rounded-full bg-[#000080] w-[50px] "></i>
-
-
-
-    <h4 class="mt-4 mb-2 text-[20px]">Here to Support You, Always</h4>
-    <p class="h-[100px] overflow-auto">Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!</p>
-
-  </div>
-
-
-
-      
-      </div>
-
-
-        <!-- * Second Box  -->
-    <div class="second-box  bg-gradient-to-br from-[#000080] via-[#41B0F8] to-[#000080] p-4 rounded-xl">
-
-      <div class="contents text-center text-white">
-
-        <i class="fa-solid fa-money-check text-3xl flex justify-center m-auto py-[13px] px-[30px] rounded-full bg-[#000080] w-[50px] "></i>
-
-
-      <h4 class="mt-4 mb-2 text-[20px]">100% Money Back Guarantee</h4>
-      <p class="h-[100px] overflow-auto">Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!</p>
-
-    </div>
-
-
-</div>
-    
-        <!-- * Third Box  -->
-        <div class="third-box  bg-gradient-to-br from-[#000080] via-[#41B0F8] to-[#000080] p-4 rounded-xl">
-
-          
-          
-          <div class="contents text-center text-white">
-
-            <i class="fa-solid fa-star text-3xl flex justify-center m-auto py-[13px] px-[30px] rounded-full bg-[#000080] w-[50px] "></i>
-            
-          <h4 class="mt-4 mb-2 text-[20px]">100% Satisfaction</h4>
-          <p class="h-[100px] overflow-auto">Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!</p>
-        </div>
-
-
-    </div>
-
-
-
-        <!-- * Forth Box  -->
-        <div class="forth-box bg-gradient-to-br from-[#000080] via-[#41B0F8] to-[#000080] p-4 rounded-xl">
-
-          <div class="contents text-center text-white">
-
-            <i class="fa-solid fa-book text-3xl flex justify-center m-auto py-[13px] px-[30px] rounded-full bg-[#000080] w-[50px] "></i>
-
-
-      <h4 class="mt-4 mb-2 text-[20px]">Quality Academic Support</h4>
-      <p class="h-[100px] overflow-auto">Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!</p>
-
-    </div>
-
-
-    </div>
-
-    
-  </div>
-  <button class="flex m-auto py-1 px-20 rounded-full text-white text-lg bg-[#000080]">Order Now</button>
-
-        
- </div>
+  <div id="second-section"></div>
+
+  <!-- JavaScript to include section.html -->
+  <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          fetch('all-sections/second-section.html')
+              .then(response => response.text())
+              .then(html => {
+                  document.getElementById('second-section').innerHTML = html;
+              });
+      });
+  </script>
+
+                      
+                            <!-- ! Section-2 END     -->
 
                             <!-- ! Section-3 Start     -->
+                            
+  <div id="third-section"></div>
 
+  <!-- JavaScript to include section.html -->
+  <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          fetch('all-sections/third-section.html')
+              .then(response => response.text())
+              .then(html => {
+                  document.getElementById('third-section').innerHTML = html;
+              });
+      });
+  </script>
 
-      <div class="main mx-8 min-[820px]:mx-40 my-14">
-
-    <div class="contents">
-
-      <h4 class="font-normal text-[20px] text-center min-[540px]:text-left min-[540px]:text-[24px] ">The Vital Role of Assignment Help for Today’s Students</h4>
-      <p class="pb-4 pt-2 text-center min-[540px]:text-left">Education has evolved. No longer confined to classrooms, learning now extends to digital platforms like Allassignmenthelp.org, known for its best online assignment help play a pivotal role.</p>
     
-      <h4 class="font-normal text-[20px] text-center min-[540px]:text-left min-[540px]:text-[24px] ">The Vital Role of Assignment Help for Today’s Students</h4>
-      <p class="pb-4 pt-2 text-center min-[540px]:text-left">Education has evolved. No longer confined to classrooms, learning now extends to digital platforms like Allassignmenthelp.org, known for its best online assignment help play a pivotal role.</p>
-  
-      <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">A Genuine Chat About Assignment Help</h4>
-      <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>  
-
-      <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">A Genuine Chat About Assignment Help</h4>
-      <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>
-    
-      <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">Navigating the World of Assignment Writing Service:</h4>
-      <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>
-
-
-    </div>
-
-
-
-
-
-
-
-      </div>
 
 
                             <!-- ! Section-3 End     -->
 
                             <!-- ! Section-4 Start    -->
-            
-    <div class="main bg-gradient-to-r from-[#000080] to-[#41B0F8]  text-center px-4 min-[600px]:px-40 py-8 my-14 ">
+    <div id="forth-section"></div>
 
-        <div class="content text-white ">
-            <h4 class="text-2xl min-[540px]:text-[30px] mb-6">One Stop Solution to All <span class="text-[#FFE066]">Academic Worries</span></h4>
-            <p>Allassignmenthelp.org ensures to deliver the world-class Assignment Help at prices that are best in the market. Our team always responds to the demands of the students quickly and fulfills them in the best possible way.</p>
-            
-            </div>
-
-            <div class="buttons flex-col min-[500px]:flex-row space-y-2 space-x-5 min-[500px]:space-y-0  mt-6">
-                <button class="bg-[#000080] text-white px-10 min-[500px]:px-8 text-lg font-medium py-1 rounded-full">Chat On WhatsApp</button>
-                <button class="bg-white text-black px-12 min-[500px]:px-8 text-lg font-medium py-1 rounded-full">Talk With Experts</button>
-                
-        
-              </div>
-
-
-
-    </div>
+  <!-- JavaScript to include section.html -->
+  <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          fetch('all-sections/forth-section.html')
+              .then(response => response.text())
+              .then(html => {
+                  document.getElementById('forth-section').innerHTML = html;
+              });
+      });
+  </script>           
+  
                         <!-- ! Section-4 End     -->
 
                         <!-- ! Section-5 Start     -->
 
+    <div id="five-section"></div>
 
-    <div class="main mx-8 min-[820px]:mx-40 my-14">
-
-        <div class="contents">
-    
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left min-[540px]:text-[24px] ">The Vital Role of Assignment Help for Today’s Students</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">Education has evolved. No longer confined to classrooms, learning now extends to digital platforms like Allassignmenthelp.org, known for its best online assignment help play a pivotal role.</p>
-
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">A Genuine Chat About Assignment Help</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>
-
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">A Genuine Chat About Assignment Help</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>
-
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">A Genuine Chat About Assignment Help</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>
-
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">Navigating the World of Assignment Writing Service:</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>
-    
-    
-            </div>
-
-            <div class="buttons text-center flex-col min-[500px]:flex-row space-y-2 space-x-5 min-[500px]:space-y-0  mt-6">
-                <button class="bg-[#000080] text-white px-10 min-[500px]:px-8 text-lg font-medium py-1 rounded-full">Chat On WhatsApp</button>
-                <button class="bg-white border-2 border-[#000080] text-black px-12 min-[500px]:px-8 text-lg font-medium py-1 rounded-full">Talk With Experts</button>
-                
-        
-              </div>
-    
-    
-            </div>
-    
+                        <!-- JavaScript to include section.html -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            fetch('all-sections/five-section.html')
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById('five-section').innerHTML = html;
+                });
+        });
+    </script>  
                             
                             <!-- ! Section-5 End     -->
 
                             <!-- ! Section-6 Start     -->
 
-    <div class="main mx-40 my-14">
+  <div id="mySection"></div>
 
-        <div class="headings text-center">
-
-    <h3 class="font-medium text-2xl min-[540px]:text-3xl">OUR <span class="underline decoration-[#000080] ">SERVICES</span></h3>
-    <h4 class=" my-4 font-normal text-2xl min-[540px]:text-3xl">Wide Range of Online Academic Help Services</h4>
+  <!-- JavaScript to include section.html -->
+  <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          fetch('all-sections/our-sevices.html')
+              .then(response => response.text())
+              .then(html => {
+                  document.getElementById('mySection').innerHTML = html;
+              });
+      });
+  </script>
     
-    </div>
-
-              <!--^ TABS-CONTENT-START -->
-              <div class="main">
-
-                <div class="left-right flex ">
-      
-          <div class="left w-[60%] flex items-center">
-      
-          <div class="tabs space-x-1 space-y-2">
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent1', 'Content1')">Assignments</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent2', 'Content2')">Dissertations</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent3', 'Content3')">Coursework</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent4', 'Content4')">Proofreading</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent5', 'Content5')">CV & Resume</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent6', 'Content6')">Ebook Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent7', 'Content7')">Content Writing</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent8', 'Content8')">Essay Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent9', 'Content9')">Pressentation Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent10', 'Content10')">Homework Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent11', 'Content11')">Artice Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent12', 'Content12')">Thesis Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent13', 'Content13')">Research Paper Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent14', 'Content14')">Exam Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent15', 'Content15')">Final Year Project Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent16', 'Content16')">Quizzes Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent17', 'Content17')">Book Report Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent18', 'Content18')">Book Analysis Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent19', 'Content19')">Online Course Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent20', 'Content20')">Online Classes Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent21', 'Content21')">Research Publication Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent22', 'Content22')">Research Proposal Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent23', 'Content23')">Assessment Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent24', 'Content24')">Casestudy Help</button>
-          <button class="bg-[#000080] text-white px-4 py-1 rounded-full" onclick="showContent('imageContent25', 'Content25')">Literature Review Help</button>
-        </div>
-      
-        </div>
-      
-      
-      
-      
-      
-      
-            <div class="right w-[40%] h-[400px] me-14">
-            <!-- Image Content for Tab 1 -->
-              <div id="imageContent1" class="content">
-                <img src="./images/tabs-images/assignment.png">
-            </div>
-      
-            <!-- Image Content for Tab 2 -->
-            <div id="imageContent2" class="content hidden">
-                <img src="images/tabs-images/dissertation.png">
-            </div>
-            
-            <!-- Image Content for Tab 3 -->
-            <div id="imageContent3" class="content hidden">
-              <img src="images/tabs-images/coursework.png">
-          </div>
-                  
-            <!-- Image Content for Tab 4 -->
-            <div id="imageContent4" class="content hidden">
-              <img src="images/tabs-images/proofreading.png">
-          </div>
-          
-      
-              <!-- Image Content for Tab 5 -->
-              <div id="imageContent5" class="content hidden">
-                <img src="images/tabs-images/CV&Resume.png">
-            </div>
-      
-              <!-- Image Content for Tab 6 -->
-              <div id="imageContent6" class="content hidden">
-                <img src="images/tabs-images/ebook.png">
-            </div>
-      
-              <!-- Image Content for Tab 7 -->
-              <div id="imageContent7" class="content hidden">
-                <img src="images/tabs-images/content-writing.png">
-            </div>
-      
-          
-            <!-- Image Content for Tab 8 -->
-            <div id="imageContent8" class="content hidden">
-              <img src="images/tabs-images/essay.png">
-          </div>
-      
-      
-          <!-- Image Content for Tab 9 -->
-          <div id="imageContent9" class="content hidden">
-            <img src="images/tabs-images/pressentation.png">
-        </div>
-      
-      
-              <!-- Image Content for Tab 10 -->
-              <div id="imageContent10" class="content hidden">
-                <img src="images/tabs-images/homework.png">
-            </div>
-      
-      
-              <!-- Image Content for Tab 11 -->
-              <div id="imageContent11" class="content hidden">
-                <img src="images/tabs-images/artice.png">
-            </div>
-      
-      
-                <!-- Image Content for Tab 12 -->
-                <div id="imageContent12" class="content hidden">
-                  <img src="images/tabs-images/thesis.png">
-              </div>
-      
-      
-                <!-- Image Content for Tab 13 -->
-                <div id="imageContent13" class="content hidden">
-                  <img src="images/tabs-images/Research Paper.png">
-              </div>
-      
-                <!-- Image Content for Tab 14 -->
-                <div id="imageContent14" class="content hidden">
-                  <img src="images/tabs-images/exam.png">
-              </div>
-      
-      
-            <!-- Image Content for Tab 15 -->
-            <div id="imageContent15" class="content hidden">
-              <img src="images/tabs-images/finalyear.png">
-          </div>
-      
-      
-            <!-- Image Content for Tab 16 -->
-            <div id="imageContent16" class="content hidden">
-              <img src="images/tabs-images/quizzes.png">
-          </div>
-      
-            <!-- Image Content for Tab 17 -->
-            <div id="imageContent17" class="content hidden">
-              <img src="images/tabs-images/book report.png">
-          </div>
-      
-            <!-- Image Content for Tab 18 -->
-            <div id="imageContent18" class="content hidden">
-              <img src="images/tabs-images/book-analysis.png">
-          </div>
-      
-            <!-- Image Content for Tab 19 -->
-            <div id="imageContent19" class="content hidden">
-              <img src="images/tabs-images/Online Courses.png">
-          </div>
-      
-      
-            <!-- Image Content for Tab 20 -->
-            <div id="imageContent20" class="content hidden">
-              <img src="images/tabs-images/Online Classes.png">
-          </div>
-        
-      
-            <!-- Image Content for Tab 21 -->
-            <div id="imageContent21" class="content hidden">
-              <img src="images/tabs-images/Research Publication.png">
-          </div>
-      
-      
-            <!-- Image Content for Tab 22 -->
-              <div id="imageContent22" class="content hidden">
-                <img src="images/tabs-images/Research Proposal.png">
-            </div>
-      
-            <!-- Image Content for Tab 23 -->
-            <div id="imageContent23" class="content hidden">
-              <img src="images/tabs-images/Assessments help.png">
-          </div>
-      
-            <!-- Image Content for Tab 24 -->
-            <div id="imageContent24" class="content hidden">
-              <img src="images/tabs-images/Case-Study.png">
-          </div>
-      
-      
-            <!-- Image Content for Tab 25 -->
-            <div id="imageContent25" class="content hidden">
-              <img src="images/tabs-images/Literature review.png">
-              <div class="tab-contents">            
-          </div>
-        
-                            <!-- Images End -->
-      
-                          </div>
-      
-              
-                        </div>
-                        </div>
-          <!-- Content for Tab 1 -->
-          <div class="all-contents w-[60%]">
-      
-          <div id="Content1" class="content">
-            <div class="-mt-10">
-            <p>Writing an Assignment Help is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-          </div>
-        </div>
-      
-      
-              <!-- Content for Tab 2 -->
-              <div id="Content2" class="content hidden">
-                <div class="-mt-10">
-                <p>Writing an Dissertation Help is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-              </div>
-            </div>
-      
-      
-            <!-- Content for Tab 3 -->
-            <div id="Content3" class="content hidden">
-              <div class="-mt-10">
-              <p>Writing an Coursework Help is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-            </div>
-          </div>
-      
-      
-            <!-- Content for Tab 4 -->
-            <div id="Content4" class="content hidden">
-              <div class="-mt-10">
-              <p>Writing an Proofreading Help is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-            </div>
-          </div>
-      
-      
-            <!-- Content for Tab 5 -->
-            <div id="Content5" class="content hidden">
-              <div class="-mt-10">
-              <p>Writing an Cv & Resume Help is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-            </div>
-          </div>
-      
-        
-            <!-- Content for Tab 6 -->
-            <div id="Content6" class="content hidden">
-              <div class="-mt-10">
-              <p>Writing an Ebook Help is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-            </div>
-          </div>
-      
-      
-            <!-- Content for Tab 7 -->
-            <div id="Content7" class="content hidden">
-              <div class="-mt-10">
-              <p>Writing an Content Writing Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-            </div>
-          </div>
-        
-            <!-- Content for Tab 8 -->
-            <div id="Content8" class="content hidden">
-              <div class="-mt-10">
-              <p>Writing an Essay Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-            </div>
-          </div>
-      
-      
-      
-          <!-- Content for Tab 9 -->
-          <div id="Content9" class="content hidden">
-            <div class="-mt-10">
-            <p>Writing an Pressentation Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-          </div>
-        </div>
-      
-          <!-- Content for Tab 10 -->
-          <div id="Content10" class="content hidden">
-            <div class="-mt-10">
-            <p>Writing an Homework Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-          </div>
-        </div>
-      
-      
-          <!-- Content for Tab 11 -->
-          <div id="Content11" class="content hidden">
-            <div class="-mt-10">
-            <p>Writing an Articles Help is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-          </div>
-        </div>
-      
-      
-              <!-- Content for Tab 12 -->
-              <div id="Content12" class="content hidden">
-                <div class="-mt-10">
-                <p>Writing an Thesis Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-              </div>
-            </div>
-      
-      
-            <!-- Content for Tab 13 -->
-            <div id="Content13" class="content hidden">
-              <div class="-mt-10">
-              <p>Writing an Research Paper Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-            </div>
-          </div>
-      
-      
-            <!-- Content for Tab 14 -->
-            <div id="Content14" class="content hidden">
-              <div class="-mt-10">
-              <p>Writing an Exam Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-            </div>
-          </div>
-      
-      
-            <!-- Content for Tab 15 -->
-            <div id="Content15" class="content hidden">
-              <div class="-mt-10">
-              <p>Writing an Final Year Project Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-            </div>
-          </div>
-      
-        
-            <!-- Content for Tab 16 -->
-            <div id="Content16" class="content hidden">
-              <div class="-mt-10">
-              <p>Writing an Quizzes Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-            </div>
-          </div>
-      
-      
-            <!-- Content for Tab 17 -->
-            <div id="Content17" class="content hidden">
-              <div class="-mt-10">
-              <p>Writing an Book Report Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-            </div>
-          </div>
-        
-            <!-- Content for Tab 18 -->
-            <div id="Content18" class="content hidden">
-              <div class="-mt-10">
-              <p>Writing an Book Analysis Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-            </div>
-          </div>
-      
-      
-      
-          <!-- Content for Tab 19 -->
-          <div id="Content19" class="content hidden">
-            <div class="-mt-10">
-            <p>Writing an Online Course Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-          </div>
-        </div>
-      
-          <!-- Content for Tab 20 -->
-          <div id="Content20" class="content hidden">
-            <div class="-mt-10">
-            <p>Writing an Online Classes Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-          </div>
-        </div>
-      
-      
-      
-        <!-- Content for Tab 21 -->
-        <div id="Content21" class="content hidden">
-          <div class="-mt-10">
-          <p>Writing an Research Publication Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-        </div>
-      </div>
-      
-      
-        <!-- Content for Tab 22 -->
-        <div id="Content22" class="content hidden">
-          <div class="-mt-10">
-          <p>Writing an Research Proposal Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-        </div>
-      </div>
-      
-        <!-- Content for Tab 23 -->
-        <div id="Content23" class="content hidden">
-          <div class="-mt-10">
-          <p>Writing an Assessment Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-        </div>
-      </div>
-      
-      
-      
-          <!-- Content for Tab 24 -->
-          <div id="Content24" class="content hidden">
-            <div class="-mt-10">
-            <p>Writing an Casestudy Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-          </div>
-        </div>
-      
-          <!-- Content for Tab 25 -->
-          <div id="Content25" class="content hidden">
-            <div class="-mt-10">
-            <p>Writing an Literature Review Help  is the most tedious task when students try to balance their precious time between academic responsibilities and other daily chores. To share their burden Gogrades.org extends its helping hand. We are the No.1 online assignment consultancy help service UK provider having completed more than 1000,000+ assignments. The assignment helpers of our website make sure to draft a high quality paper following proper formatting and referencing style.</p>
-          </div>
-        </div>
-      
-      </div>
-                  </div>
-      
-              <!--^ TABS-CONTENT-END -->  
-
-    </div>
 
 
-
-                            <!-- ! Section-6 END     -->
+                        <!-- ! Section-6 END     -->
 
                        <!-- ! Section-7 Start     -->
 
+    <div id="seven-section"></div>
 
-    <div class="main mx-8 min-[820px]:mx-40 my-14">
-
-    <div class="contents">
-
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left min-[540px]:text-[24px] ">The Vital Role of Assignment Help for Today’s Students</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">Education has evolved. No longer confined to classrooms, learning now extends to digital platforms like Allassignmenthelp.org, known for its best online assignment help play a pivotal role.</p>
-
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">A Genuine Chat About Assignment Help</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>
-
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">A Genuine Chat About Assignment Help</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>
-
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">A Genuine Chat About Assignment Help</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>
-
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">A Genuine Chat About Assignment Help</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>
-
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">Navigating the World of Assignment Writing Service:</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>
-
-
-        </div>
-
-        <div class="buttons text-center flex-col min-[500px]:flex-row space-y-2 space-x-5 min-[500px]:space-y-0  mt-6">
-            <button class="bg-[#000080] text-white px-10 min-[500px]:px-8 text-lg font-medium py-1 rounded-full">Chat On WhatsApp</button>
-            <button class="bg-white border-2 border-[#000080] text-black px-12 min-[500px]:px-8 text-lg font-medium py-1 rounded-full">Talk With Experts</button>
-            
+    <!-- JavaScript to include section.html -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            fetch('all-sections/seven-section.html')
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById('seven-section').innerHTML = html;
+                });
+        });
+    </script>
     
-            </div>
-
-                <img class="mt-8" src="./images/trust.png">
-
-        </div>
                     
                                             
-                            <!-- ! Section-7 End     -->
+                        <!-- ! Section-7 End     -->
 
 
                         <!-- ! Section-8 Start     -->
 
+      <div id="eight-section"></div>
 
-    <div class="main mx-8 min-[820px]:mx-40 my-14">
+      <!-- JavaScript to include section.html -->
+      <script>
+          document.addEventListener('DOMContentLoaded', function () {
+              fetch('all-sections/eight-section.html')
+                  .then(response => response.text())
+                  .then(html => {
+                      document.getElementById('eight-section').innerHTML = html;
+                  });
+          });
+      </script>
 
-        <div class="contents">
-
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left min-[540px]:text-[24px] ">The Vital Role of Assignment Help for Today’s Students</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">Education has evolved. No longer confined to classrooms, learning now extends to digital platforms like Allassignmenthelp.org, known for its best online assignment help play a pivotal role.</p>
-
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">A Genuine Chat About Assignment Help</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>
-
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">A Genuine Chat About Assignment Help</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>
-
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">A Genuine Chat About Assignment Help</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>
-
-    <h4 class="font-normal text-[20px] text-center min-[540px]:text-left  min-[540px]:text-[24px] ">Navigating the World of Assignment Writing Service:</h4>
-    <p class="pb-4 pt-2 text-center min-[540px]:text-left">If you are a student in any corner of the world, you would be well aware that as a student, when you are completely lost in enjoyment, forgetting all your assignments and worries and chilling with your friends, suddenly you realize that you have many assignments and homework pending. In these times, we are your best friends. We are ready to help you, whether you are from another country or speak a different language, you will always find us as your helpful friend.</p>
-
-
-            </div>
-
-            <div class="buttons text-center flex-col min-[500px]:flex-row space-y-2 space-x-5 min-[500px]:space-y-0  mt-6">
-                <button class="bg-[#000080] text-white px-10 min-[500px]:px-8 text-lg font-medium py-1 rounded-full">Chat On WhatsApp</button>
-                <button class="bg-white border-2 border-[#000080] text-black px-12 min-[500px]:px-8 text-lg font-medium py-1 rounded-full">Talk With Experts</button>
-                
-        
-                </div>
-
-
-            </div>
+    
 
                                                 
                                 <!-- ! Section-8 End     -->
 
-
-
-
                                 <!-- ! Section-9 Start     -->
-    <div class="main mx-40 my-20">
+      <div id="nine-section"></div>
 
-        <div class="content text-center">
-
-    <h3 class="font-medium text-2xl my-3 min-[540px]:text-3xl">Evaluating Australia's Best <span class="underline decoration-[#000080] ">Writing Services</span></h3>
-    <p>Great Assignment Help: Our Australian Writing Service is proud to provide papers of the finest quality, helping you get excellent scores! <br>  Achieve excellence on each and every task.</p>
-        
-        </div>
-
-        
-     
-                          <!-- & First ROW -->
-
-                          <div class="three-boxes my-10 grid grid-cols-1 min-[1145px]:grid-cols-4 min-[692px]:grid-cols-2 gap-6">
-                            <!-- *First Box  -->
-                  <div class="fist-box  bg-gradient-to-br from-[#000080] via-[#41B0F8] to-[#000080] p-4 rounded-xl">
-          
-                    
-                    <div class="contents text-center text-white">
-                      
-                      <i class="fa-solid fa-user-graduate text-3xl flex justify-center m-auto py-[13px] px-[30px] rounded-full bg-[#000080] w-[50px] "></i>
-          
-                    <h4 class="mt-4 mb-2 text-[20px]">100% Plagiarism FREE</h4>
-                    <p class="h-[100px] overflow-auto">Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!</p>
-          
-                  </div>
-          
-          
-          
-                      
-                      </div>
-          
-          
-                        <!-- * Second Box  -->
-                    <div class="second-box  bg-gradient-to-br from-[#000080] via-[#41B0F8] to-[#000080] p-4 rounded-xl">
-          
-                      <div class="contents text-center text-white">
-          
-                        <i class="fa-solid fa-money-check text-3xl flex justify-center m-auto py-[13px] px-[30px] rounded-full bg-[#000080] w-[50px] "></i>
-          
-                      <h4 class="mt-4 mb-2 text-[20px]">100% Money Back Guarantee</h4>
-                      <p class="h-[100px] overflow-auto">Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!</p>
-            
-                    </div>
-            
-            
-                </div>
-                    
-                        <!-- * Third Box  -->
-                    <div class="third-box  bg-gradient-to-br from-[#000080] via-[#41B0F8] to-[#000080] p-4 rounded-xl">
-          
-                      <div class="contents text-center text-white">
-          
-                        <i class="fa-solid fa-star text-3xl flex justify-center m-auto py-[13px] px-[30px] rounded-full bg-[#000080] w-[50px] "></i>
-          
-                    <h4 class="mt-4 mb-2 text-[20px]">100% Satisfaction</h4>
-                    <p class="h-[100px] overflow-auto">Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!</p>
-                  </div>
-            
-            
-                </div>
-          
-          
-          
-                  <!-- * Forth Box  -->
-                  <div class="forth-box bg-gradient-to-br from-[#000080] via-[#41B0F8] to-[#000080] p-4 rounded-xl">
-          
-                    <div class="contents text-center text-white">
-          
-                      <i class="fa-solid fa-history text-3xl flex justify-center m-auto py-[13px] px-[30px] rounded-full bg-[#000080] w-[50px] "></i>
-          
-          
-                <h4 class="mt-4 mb-2 text-[20px]">Unlimited Revisions</h4>
-                <p class="h-[100px] overflow-auto">Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!Allassignmenthelp offers 24/7 support, including weekends. We’re here for you whenever you face an unexpected academic challenge. Just a click away, we provide support anytime, any day!</p>
-          
-              </div>
-          
-          
-              </div>
-          
-          
-          
-          
-          
-          
-                    </div>
-
-
-    </div>
-
+      <!-- JavaScript to include section.html -->
+      <script>
+          document.addEventListener('DOMContentLoaded', function () {
+              fetch('all-sections/nine-section.html')
+                  .then(response => response.text())
+                  .then(html => {
+                      document.getElementById('nine-section').innerHTML = html;
+                  });
+          });
+      </script>
 
 
 
@@ -1161,387 +197,31 @@
 
                       <!-- ! Section-9 End     -->
 
-
-
                       <!-- ! Section-10 Start     -->
 
-  <div class="main mx-40 mb-40">
-
-    <div class="headings text-center">
-
-      <h3 class="font-medium text-[32px]">OUR <span class="underline decoration-[#000080] ">SUBJECTS</span></h3>
-      <h4 class="font-normal text-[26px]">We Accept All Subjects</h4>
-      </div>
-
-
-          <div class="boxes">
-
-                  <!-- & First Row -->
-
-          <div class="first-box-row grid grid-cols-3 min-[1145px]:grid-cols-6 min-[1145px]:space-y-0 space-y-4 space-x-4 my-4">
-
-            <div class="box-1 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-              <div class="icon mb-2 m-auto flex justify-center rounded-full">
-                <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-                  </div>
-            
-              <i class="fa fa-star text-yellow-500"></i>
-              <i class="fa fa-star text-yellow-500"></i>
-              <i class="fa fa-star text-yellow-500"></i>
-              <i class="fa fa-star text-yellow-500"></i>
-              <i class="fa fa-star text-yellow-500"></i>
-          
-              <h5 class="text-white text-[15px] font-medium uppercase">Accounting</h5>
-          
-                  </div>
-            
-                            <!-- end first box -->
-
-
-            <div class="box-2 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-              <div class="icon mb-2 m-auto flex justify-center rounded-full">
-                <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-                  </div>
-            
-              <i class="fa fa-star text-yellow-500"></i>
-              <i class="fa fa-star text-yellow-500"></i>
-              <i class="fa fa-star text-yellow-500"></i>
-              <i class="fa fa-star text-yellow-500"></i>
-              <i class="fa fa-star text-yellow-500"></i>
-          
-              <h5 class="text-white text-[15px] font-medium uppercase">Buisness</h5>
-          
-                  </div>
-                            <!-- end second box -->
-
-        <div class="box-3 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-          <div class="icon mb-2 m-auto flex justify-center rounded-full">
-            <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-              </div>
-        
-          <i class="fa fa-star text-yellow-500"></i>
-          <i class="fa fa-star text-yellow-500"></i>
-          <i class="fa fa-star text-yellow-500"></i>
-          <i class="fa fa-star text-yellow-500"></i>
-          <i class="fa fa-star text-yellow-500"></i>
-      
-          <h5 class="text-white text-[15px] font-medium uppercase">Nursing</h5>
-      
-              </div>
-                        <!-- end third box -->
-
-  <div class="box-4 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-    <div class="icon mb-2 m-auto flex justify-center rounded-full">
-      <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-        </div>
-  
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-
-    <h5 class="text-white text-[15px] font-medium uppercase">Art</h5>
-
-        </div>
-                  <!-- end forth box -->
-
-    <div class="box-5 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-      <div class="icon mb-2 m-auto flex justify-center rounded-full">
-        <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-          </div>
-    
-      <i class="fa fa-star text-yellow-500"></i>
-      <i class="fa fa-star text-yellow-500"></i>
-      <i class="fa fa-star text-yellow-500"></i>
-      <i class="fa fa-star text-yellow-500"></i>
-      <i class="fa fa-star text-yellow-500"></i>
-  
-      <h5 class="text-white text-[15px] font-medium uppercase">HRM</h5>
-  
-          </div>
-                    <!-- end five box -->         
-                    
-      
-      <div class="box-6 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-        <div class="icon mb-2 m-auto flex justify-center rounded-full">
-          <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-            </div>
-      
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-    
-        <h5 class="text-white text-[15px] font-medium uppercase">Anthropology</h5>
-    
-            </div>
-                      <!-- end six box -->   
-
-
-
-
-
-
-          </div>        
-          
-          
-                 <!-- & Second Row -->
-
-      <div class="second-box-row grid grid-cols-3 min-[1145px]:grid-cols-6 min-[1145px]:space-y-0 space-y-4 space-x-4 my-4">
-
-      <div class="box-1 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-        <div class="icon mb-2 m-auto flex justify-center rounded-full">
-          <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-            </div>
-      
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-    
-        <h5 class="text-white text-[15px] font-medium uppercase">Biology</h5>
-    
-            </div>
-      
-                      <!-- end first box -->
-
-
-      <div class="box-2 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-        <div class="icon mb-2 m-auto flex justify-center rounded-full">
-          <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-            </div>
-      
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-    
-        <h5 class="text-white text-[15px] font-medium uppercase">Chemistry</h5>
-    
-            </div>
-                      <!-- end second box -->
-
-  <div class="box-3 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-    <div class="icon mb-2 m-auto flex justify-center rounded-full">
-      <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-        </div>
-  
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-
-    <h5 class="text-white text-[15px] font-medium uppercase">Finance</h5>
-
-        </div>
-                  <!-- end third box -->
-
-    <div class="box-4 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-    <div class="icon mb-2 m-auto flex justify-center rounded-full">
-    <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-      </div>
-
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-
-    <h5 class="text-white text-[15px] font-medium uppercase">History</h5>
-
-      </div>
-            <!-- end forth box -->
-
-<div class="box-5 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-<div class="icon mb-2 m-auto flex justify-center rounded-full">
-  <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-    </div>
-
-<i class="fa fa-star text-yellow-500"></i>
-<i class="fa fa-star text-yellow-500"></i>
-<i class="fa fa-star text-yellow-500"></i>
-<i class="fa fa-star text-yellow-500"></i>
-<i class="fa fa-star text-yellow-500"></i>
-
-<h5 class="text-white text-[15px] font-medium uppercase">Law</h5>
-
-    </div>
-              <!-- end five box -->         
-              
-
-<div class="box-6 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-  <div class="icon mb-2 m-auto flex justify-center rounded-full">
-    <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-      </div>
-
-  <i class="fa fa-star text-yellow-500"></i>
-  <i class="fa fa-star text-yellow-500"></i>
-  <i class="fa fa-star text-yellow-500"></i>
-  <i class="fa fa-star text-yellow-500"></i>
-  <i class="fa fa-star text-yellow-500"></i>
-
-  <h5 class="text-white text-[15px] font-medium uppercase">Others</h5>
-
-      </div>
-                <!-- end six box -->   
-
-
-
-
-
-
-    </div>  
-
-
-                 <!-- & Third Row -->
-
-      <div class="third-box-row grid grid-cols-2 min-[1145px]:grid-cols-4 min-[1145px]:space-y-0 space-y-4 space-x-4 my-4">
-
-      <div class="box-1 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-        <div class="icon mb-2 m-auto flex justify-center rounded-full">
-          <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-            </div>
-      
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-    
-        <h5 class="text-white text-[15px] font-medium uppercase">Application Letters</h5>
-    
-            </div>
-      
-                      <!-- end first box -->
-
-
-      <div class="box-2 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-        <div class="icon mb-2 m-auto flex justify-center rounded-full">
-          <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-            </div>
-      
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-    
-        <h5 class="text-white text-[15px] font-medium uppercase">ART & ARCHITECTURE</h5>
-    
-            </div>
-                      <!-- end second box -->
-
-  <div class="box-3 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-    <div class="icon mb-2 m-auto flex justify-center rounded-full">
-      <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-        </div>
-  
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-    <i class="fa fa-star text-yellow-500"></i>
-
-    <h5 class="text-white text-[15px] font-medium uppercase">FAMILY AND CONSUMER SCIENCE</h5>
-
-        </div>
-                  <!-- end third box -->
-
-        <div class="box-4 bg-[#000080] text-center px-4 py-2 rounded-lg">
-
-        <div class="icon mb-2 m-auto flex justify-center rounded-full">
-        <i class="fa fa-book p-[14px] text-white text-[40px]"></i>
-          </div>
-
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-        <i class="fa fa-star text-yellow-500"></i>
-
-        <h5 class="text-white text-[15px] font-medium uppercase">FILM & THEATER STUDIES</h5>
-
-          </div>
-            <!-- end forth box -->
-
-
-
-
-
-
-    </div>  
-
-
-
-
-          </div>
-
-  </div>
-
+      <div id="ten-section"></div>
+
+      <!-- JavaScript to include section.html -->
+      <script>
+          document.addEventListener('DOMContentLoaded', function () {
+              fetch('all-sections/ten-section.html')
+                  .then(response => response.text())
+                  .then(html => {
+                      document.getElementById('ten-section').innerHTML = html;
+                  });
+          });
+      </script>
 
 
 
                       <!-- ! Section-10 End     -->
 
 
+        <script src="index.js"></script>
 
 
 
 
-                        <!--^ Navbar Script START -->
-
-
-        <script>
-            
-          function myFunction(){
-              document.getElementById('navbar-mobile').classList.toggle("mystyle");
-          }
-    </script>
-
-    <style>
-      .mystyle{
-          display: flex;
-  flex-direction: column;
-      }
-    </style>
-
-                      <!--^ Navbar Script END -->
-
-                      <!--^ TABS-CONTENT-Script START -->
-
-    <script>
-      function showContent(imageContentId, contentId) {
-        // Hide all content divs
-        document.querySelectorAll('.content').forEach(function (el) {
-          el.classList.add('hidden');
-        });
-    
-        // Show the selected content
-        document.getElementById(imageContentId).classList.remove('hidden');
-        document.getElementById(contentId).classList.remove('hidden');
-      }
-    </script>            
-                      <!--^ TABS-CONTENT-Script END -->
 
   </body>
 </html>

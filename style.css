@@ -17,4 +17,8 @@
    
   }
   
-                
+        /* Navbar CSS */
+  .mystyle{
+    display: flex;
+    flex-direction: column;
+    }
