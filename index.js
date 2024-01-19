@@ -23,10 +23,8 @@
            
                 //   ^ TABS-CONTENT-Script END 
        
-                // ^ Section Nine Script
+                // ^ Brand LOGO Script
 
 
                 
-               
-               
                    
