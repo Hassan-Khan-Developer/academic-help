@@ -1,15 +1,17 @@
-<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Academic Help</title>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">  <!-- CSS -->
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+      <link rel="stylesheet" href="style.css">
+      <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <title>Academic Help</title>
+    
+                                      
   </head>
   <body>
                         <!-- ! Navbar Start     -->
@@ -197,6 +199,11 @@
 
                       <!-- ! Section-9 End     -->
 
+
+
+
+
+
                       <!-- ! Section-10 Start     -->
 
       <div id="our-subjects"></div>
@@ -215,6 +222,26 @@
 
 
                       <!-- ! Section-10 End     -->
+
+                      <!-- ! Section-12 Start     -->
+
+      <div id="twelve-section"></div>
+
+      <!-- JavaScript to include section.html -->
+      <script>
+          document.addEventListener('DOMContentLoaded', function () {
+              fetch('all-sections/twelve-section.html')
+                  .then(response => response.text())
+                  .then(html => {
+                      document.getElementById('twelve-section').innerHTML = html;
+                  });
+          });
+      </script>
+                                      
+                    <!-- ! Section-12 End     -->
+
+
+
                       <!-- ! Section-11 Start     -->
 
       <div id="eleven-section"></div>
@@ -249,7 +276,25 @@
                     <!-- ! Section-12 End     -->
 
 
+        <!-- ! Section-9 Start     -->
+        <div id="tezt"></div>
 
+        <!-- JavaScript to include section.html -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                fetch('test-slider.html')
+                    .then(response => response.text())
+                    .then(html => {
+                        document.getElementById('tezt').innerHTML = html;
+                    });
+            });
+        </script>
+    
+    
+    
+    
+    
+                        <!-- ! Section-9 End     -->
 
                       
 
@@ -258,8 +303,6 @@
 
 
         <script src="index.js"></script>
-
-
 
 
 
